@@ -303,6 +303,9 @@ li {
 .fa-github-square:hover {
   color: rgb(50, 49, 49);
 }
+.fa-file-pdf:hover {
+  color: rgb(231, 69, 19);
+}
 /*End about*/
 
 /*Start services*/
@@ -646,6 +649,12 @@ input[type="submit"]:hover {
   }
 }
 @media screen and (max-width: 600px) {
+  html, body {
+    overflow-x: hidden;
+  }
+  body {
+    position: relative
+  }
   .menu-toggler {
     top: 2rem;
     right: 2rem;
@@ -670,6 +679,11 @@ input[type="submit"]:hover {
 
   .profile-img {
     margin: 0 0 7rem 0;
+  }
+
+  .social-media i {
+    font-size: 3.5rem;
+    transition: color 650ms;
   }
 
   .portfolio-item {
